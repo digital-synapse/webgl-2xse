@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    
+    <style>
+        .nearest  
+        {
+            -ms-interpolation-mode: nearest-neighbor; 
+            interpolation-mode: nearest-neighbor; 
+            -webkit-interpolation-mode: nearest-neighbor; 
+            image-rendering: pixelated; }
+    </style>
+</head>
+    <body>
+        <div id="WebGLCanvas">
+        <p>Source Image</p>
+        <img src="../assets/smb3.png" width="512px" class="nearest"/>
+        <!--<img src="../assets/contra.png" width="512px" class="nearest" />-->
+        <p>Image after 2xSE</p>
+        <script type="text/javascript" src="lib/three/three.js"></script>
+        <script type="text/javascript" src="ajax.js"></script>
+        <script type="text/javascript" src="gpu.js"></script>               
+        <script type="text/javascript" src="main.js"></script>
+        
+    </body>
+</html>
